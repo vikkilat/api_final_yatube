@@ -1,30 +1,51 @@
-# Описание
- API для проекта Yatube.
- ### Функционал:
- - возможность создавать посты и комментарии к ним;
- - подписываться на авторов;
- - создавать группы.
+# Проект API для Yatube
+ API Yatube для проекта социальной сети Yatube.
  
- ### Порядок установки проекта:
- 1. Создать и активировать виртуальное окружение:
- ```
-python -m venv venv
-source venv/Scripts/activate
-python -m pip install --upgrade pip
+ ## Описание проекта:
+ * Возможность создавать посты и комментарии к ним;
+ * Подписываться на авторов;
+ * Создавать группы.
+
+## Стек технологий:
+* Python 3.7
+* Django
+* Django Rest Framework
+* Simple-JWT
+ 
+## Как запустить проект:
+
+* Клонировать репозиторий и перейти в него в командной строке:
 ```
-2. Установить зависимости из файла requirements.txt:
+git clone git@github.com:vikkilat/api_yatube.git
+```
+```
+cd api_yatube
+```
+
+* Cоздать и активировать виртуальное окружение:
+```
+python -m venv venv
+```
+```
+source venv/Scripts/activate
+```
+
+* Установить зависимости из файла ```requirements.txt```:
 ```
 pip install -r requirements.txt
 ```
-3. Выполнить миграции:
+
+* Выполнить миграции:
 ```
 python manage.py migrate
 ```
-4. Запустить проект:
+
+* Запустить проект:
 ```
 python manage.py runserver
 ```
-## Об авторе
-Латышева Виктория Валерьевна
+
+## Автор:
+[Латышева Виктория](https://github.com/vikkilat)
 
 Python-разработчик (Backend)
