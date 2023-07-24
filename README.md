@@ -47,5 +47,3 @@ python manage.py runserver
 
 ## Автор:
 [Латышева Виктория](https://github.com/vikkilat)
-
-Python-разработчик (Backend)
